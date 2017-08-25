@@ -1,6 +1,9 @@
 import mock from 'mock-fs'
 import fs from 'fs-extra'
+import debug from 'debug'
 
-console.log('hi')
+// const debugg = debug(fs)
+// public api for it too
+// turn into file generator for anything i use a lot, publish to npm
 
-export {}
+const {h, render, Component} = require('ink');
